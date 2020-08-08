@@ -6,7 +6,6 @@
 </p>
 <p align="center">Customize Your Termux
 <p align="center">
- <a href="https://github.com/Bhaviktutorials"><img title="Open Source Love" src="https://badges.frapsoft.com/os/v2/open-source.png?v=103" ></a>
  <a href="https://paypal.me/bhavikoza"><img title="Donate" src="https://img.shields.io/badge/Donate-PayPal-blue" ></a>
  <a href="https://github.com/Bhaviktutorials/Termux-Megapackage"><img title="GitHub version" src="https://d25lcipzij17d.cloudfront.net/badge.svg?id=gh&type=6&v=1.0.0&x2=0" ></a>
 <a href="https://github.com/Bhaviktutorials"><img title="GitHub version" src="https://img.shields.io/github/license/Bhaviktutorials/T-Remix?color=Brightgree" ></a>
@@ -87,10 +86,4 @@ Developer / Author: [Ashish]() / [Bhavik Oza](https://github.com/Bhaviktutorials
 Company: [Bhavik Tutorials](https://www.youtube.com/bhaviktutorials)
 
 ##To Know about Ethical Hacking , Android And Kali Linux Do Follow Us
-
-![https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngwing.com%2Fen%2Ffree-png-bzzdn&psig=AOvVaw1Tt_yjRzMMIC46GI2sOz2-&ust=1596973690722000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMiqht_Ei-sCFQAAAAAdAAAAABAD](https://www.youtube.com/bhaviktutorials)
-
-[![Facebook](https://github.frapsoft.com/social/facebook.png)](https://www.facebook.com/frapsoft/)
-[![Google+](https://github.frapsoft.com/social/google-plus.png)](https://plus.google.com/116540931335841862774)
-[![Gitter](https://github.frapsoft.com/social/gitter.png)](https://gitter.im/frapsoft/frapsoft/)
-[![Github](https://github.frapsoft.com/social/github.png)](https://github.com/ellerbrock/)
+[![Github](https://github.frapsoft.com/social/github.png)](https://github.com/Bhaviktutorials/)
