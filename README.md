@@ -45,7 +45,7 @@ $ bash t-remix.sh
 #### Before Installing T-Remix Termux Looks:-
 
 ![Screenshot_20200808_161602](https://user-images.githubusercontent.com/64035221/89708658-86510580-d996-11ea-9739-aae202ce3ee2.jpg)
-![Screenshot_20200808_161610](https://user-images.githubusercontent.com/64035221/89708659-87823280-d996-11ea-8aea-a0b52112c5b4.jpg)
+
 
 #### During Installing _T-Remix_ Termux Looks:-
 
