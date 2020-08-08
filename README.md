@@ -88,7 +88,8 @@ Company: [Bhavik Tutorials](https://www.youtube.com/bhaviktutorials)
 
 ##To Know about Ethical Hacking , Android And Kali Linux Do Follow Us
 
-[![Twitter](https://github.frapsoft.com/social/twitter.png)](https://twitter.com/frapsoft/)
+![https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngwing.com%2Fen%2Ffree-png-bzzdn&psig=AOvVaw1Tt_yjRzMMIC46GI2sOz2-&ust=1596973690722000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMiqht_Ei-sCFQAAAAAdAAAAABAD](https://www.youtube.com/bhaviktutorials)
+
 [![Facebook](https://github.frapsoft.com/social/facebook.png)](https://www.facebook.com/frapsoft/)
 [![Google+](https://github.frapsoft.com/social/google-plus.png)](https://plus.google.com/116540931335841862774)
 [![Gitter](https://github.frapsoft.com/social/gitter.png)](https://gitter.im/frapsoft/frapsoft/)
