@@ -1,10 +1,9 @@
 <p align="center"><a><img title="Built With Love" src="https://forthebadge.com/images/badges/built-for-android.svg"> </a>
 
 # <p align="center">T-Remix
-<div align=”center”>
-<img src=https://user-images.githubusercontent.com/64035221/89706858-1dae5c80-d987-11ea-9e85-6802c8ab7432.jpg" >
-<p>Logo</p>
-</div>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/64035221/89707674-0fb00a00-d98e-11ea-95c7-43000838eb1d.jpg">
+</p>
 <p align="center">All In One Package For Termux
 <p align="center">
  <a href="https://github.com/Bhaviktutorials"><img title="Open Source Love" src="https://badges.frapsoft.com/os/v2/open-source.png?v=103" ></a>
