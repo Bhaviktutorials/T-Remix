@@ -1,5 +1,4 @@
 #!/data/data/com.termux/files/usr/bin/bash
-clear
 cp login.py $PREFIX/bin/
 chmod 700 $PREFIX/bin/login.py
 cp login $PREFIX/bin/
