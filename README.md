@@ -21,6 +21,7 @@
 ---
 ### What is T-Remix??
 T-Remix or Termux will Help to Customise Your Termux in such a way that you will Enjoy using Termux it will give you a morden look and we also have add a feature of password,so now you can also set Password on your Termux and protect it so no one can login in your termux in absence of you.
+one more feature that we have added is that you can change dollar sign and put anything you want in that place.
 Hope you guys like this Project,then dont forget to give it a like.
 ### Installation T-Remix
 * `Commands` for termux
@@ -39,11 +40,12 @@ $ chmod +x *
 
 $ bash t-remix.sh
 ```
-#### You can download the required package as per your need :)
-(Just Open Issue As A Package Request)
-
 ### Screenshots
-After Installing _GodMode_:-
+Before Installing _T-Remix_ Termux Looks:-
+
+After Installing _T-Remix_ Termux Looks Login Screen:-
+
+After Installing _T-Remix_ Termux Looks Home Page:-
 
 ***
 ### To Remove Banner
@@ -64,12 +66,16 @@ $ ls
 
 $ bash remove-login.sh
 ```
-### Tools edited
-* Ashish
-* Bhavik (ozabhavik2@gmail.com)
-## Special Thanks to the Contributers
-1) Hax4us (Termux Black & Metasploit)
-2) Darksec-Developer (HiddenEye)
-3) ThespeedX (TBomb)
-4) htr-tech (zphisher & nexphisher)
-5) saydog (Saydog-framework)
+### Development by
+
+Developer / Author: [Ashish Sign]() / [Bhavik Oza](https://github.com/Bhaviktutorials/)
+
+Company: [Bhavik Tutorials](https://www.youtube.com/bhaviktutorials)
+
+##To Know about Ethical Hacking , Android And Kali Linux Do Follow Us
+
+[![Twitter](https://github.frapsoft.com/social/twitter.png)](https://twitter.com/frapsoft/)
+[![Facebook](https://github.frapsoft.com/social/facebook.png)](https://www.facebook.com/frapsoft/)
+[![Google+](https://github.frapsoft.com/social/google-plus.png)](https://plus.google.com/116540931335841862774)
+[![Gitter](https://github.frapsoft.com/social/gitter.png)](https://gitter.im/frapsoft/frapsoft/)
+[![Github](https://github.frapsoft.com/social/github.png)](https://github.com/ellerbrock/)
