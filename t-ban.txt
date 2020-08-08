@@ -1,0 +1,1 @@
+toilet -f slant '           Bhavik'  -F gay | lolcat
