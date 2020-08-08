@@ -42,23 +42,23 @@ $ bash t-remix.sh
 ```
 ### Screenshots
 
-####Before Installing T-Remix Termux Looks:-
+#### Before Installing T-Remix Termux Looks:-
 
 ![Screenshot_20200808_161602](https://user-images.githubusercontent.com/64035221/89708658-86510580-d996-11ea-9739-aae202ce3ee2.jpg)
 ![Screenshot_20200808_161610](https://user-images.githubusercontent.com/64035221/89708659-87823280-d996-11ea-8aea-a0b52112c5b4.jpg)
 
-####During Installing _T-Remix_ Termux Looks:-
+#### During Installing _T-Remix_ Termux Looks:-
 
 ![Screenshot_20200808_163048](https://user-images.githubusercontent.com/64035221/89708731-3888cd00-d997-11ea-8e3d-b4709b7698c0.jpg)
 ![Screenshot_20200808_163635](https://user-images.githubusercontent.com/64035221/89708732-39b9fa00-d997-11ea-9eb1-4f8fbe81d986.jpg)
 ![Screenshot_20200808_163729](https://user-images.githubusercontent.com/64035221/89708733-3a529080-d997-11ea-8c6a-ce5e4d39b282.jpg)
 ![Screenshot_20200808_163752](https://user-images.githubusercontent.com/64035221/89708734-3a529080-d997-11ea-8e10-e09e358586ca.jpg)
 
-####After Installing _T-Remix_ Termux Looks Login Screen:-
+#### After Installing _T-Remix_ Termux Looks Login Screen:-
 
 ![Screenshot_20200808_163855](https://user-images.githubusercontent.com/64035221/89708680-bd271b80-d996-11ea-8342-5c6eef3b0a28.jpg)
 
-####After Installing _T-Remix_ Termux Looks Home Page:-
+#### After Installing _T-Remix_ Termux Looks Home Page:-
 
 ![Screenshot_20200808_163922](https://user-images.githubusercontent.com/64035221/89708696-f495c800-d996-11ea-87be-76902f58c1ca.jpg)
 ***
