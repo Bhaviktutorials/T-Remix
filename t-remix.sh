@@ -8,11 +8,11 @@ termux-setup-storage
 #updating the packages
 apt-get update -yq --silent
  #upgrading the packages
-apt-get upgrade -yq --silent
+apt-get upgrade -y
  #installing python if not installed ;if install null
 apt-get install python -yq --silent
 #packing up figlet
-apt-get install figlet -yq --silent
+apt-get install figlet -y
 #Installing ruby
 apt-get  install ruby -yq --silent
 #parsing ruby ....
@@ -22,7 +22,7 @@ gem install lolcat
 #Install toilet
 apt-get install toilet -yq --silent
 # now installing ncurses-utils
-apt-get install ncurses-utils -yq --silent
+apt-get install ncurses-utils -y
 
 
 clear
@@ -63,10 +63,9 @@ echo "[*]Loading " |lolcat
 sleep 2
 echo " "
 sleep 3
-
-# install mpv to play the hackers sound
-apt-get install mpv -yq --silent
 clear
+# install mpv to play the hackers sound
+apt-get install mpv -y
 #change directory to etc
 cd /data/data/com.termux/files/usr/etc
 
@@ -103,7 +102,7 @@ clear
 
 echo " "
 
-apt-get install cowsay -yq --silent
+apt-get install cowsay -y
 
 echo " "
 
@@ -111,7 +110,7 @@ apt-get install nano -yq --silent
 
 echo " "
 
-apt-get install ruby -yq --silent
+apt-get install ruby -y
 
 gem install ruby
 
@@ -131,21 +130,20 @@ echo -e "\033[1;32m
 ﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌ \033[m "
 sleep 4.0
 
-clear
 bash user.sh
 
 echo " "
-echo -e "\033[1;34m[*]\e[33msetting login information \e[m"  
+echo -e "\033[1;34m[*]\e[33m Setting login information \e[m"  
 sleep 3                                                                  
-echo -e "\033[1;34m[*]\e[33minstalling....... \e[m "
+echo -e "\033[1;34m[*]\e[33m Installing \e[m "
 sleep 4
-echo -e "\033[1;34m[*]\e[33mReading packages \e[m "
+echo -e "\033[1;34m[*]\e[33m Reading packages \e[m "
 sleep 5
-echo -e "\033[1;34m[*]\e[33mSecuring termux-login \e[m "
+echo -e "\033[1;34m[*]\e[33m Securing termux-login \e[m "
 sleep 2
-echo -e "\033[1;34m[*]\e[33mDone \e[m "
+echo -e "\033[1;34m[*]\e[33m Done \e[m "
 sleep 1
-echo -e "\033[1;34m[*]\e[33mplease wait ....\e[m "
+echo -e "\033[1;34m[*]\e[33m Please wait \e[m "
 sleep 4
 
 
@@ -173,10 +171,9 @@ echo "
                             " |lolcat
 
 echo " "
-echo " "
 sleep 4
 
-
+# SETTING UP A LOGIN INFORMATION FROM USER SIDE 
 bash login.sh		                                 
 #spinner 
 bash ashi.sh
