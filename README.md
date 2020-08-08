@@ -28,7 +28,7 @@ Hope you guys like this Project,then dont forget to give it a like.
 ```
 $ pkg update && pkg upgrade && pkg install git -y
 
-$ git clone https://github.com/Bhaviktutorials/Termux-Megapackage
+$ git clone https://github.com/Bhaviktutorials/T-Remix
 
 $ ls
 
