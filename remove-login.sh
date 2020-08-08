@@ -10,12 +10,12 @@ rm $PREFIX/bin/login.py
 cp old_login $PREFIX/bin/login
 chmod 700 $PREFIX/bin/login
 echo " "
-echo " "
-echo -e "[*]\e[33mRemoving T-Remix \e[m "
+bash ashi.sh
+echo -e "\e[31m[\e[32m*\e[31m]\e[33mRemoving T-Remix \e[m "
 sleep 2
-echo -e "[*]\e[33mLoading \e[m "
+echo -e "\e[31m[\e[32m*\e[31m]\e[33mLoading\e[m "
 sleep 3
-echo -e "\eSuccessfully Removed T-Remix \e[m "
+echo -e "\e[31m[\e[32m*\e[31m]\e[33mSuccessfully Removed Login\e[m "
 sleep 2
 
 tput clear
