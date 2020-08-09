@@ -1,9 +1,31 @@
 #!/data/data/com.termux/files/usr/bin/bash
+clear
 cp login.py $PREFIX/bin/
 chmod 700 $PREFIX/bin/login.py
 cp login $PREFIX/bin/
 chmod 700 $PREFIX/bin/login
-mkdir /data/data/com.termux/files/usr/share/login/
+
+
+
+DIR="/data/data/com.termux/files/usr/etc/motd"
+if [ -d "$DIR" ]; then
+  ### Take action if $DIR exists ###
+  rm /data/data/com.termux/files/usr/etc/motd
+else
+  ###  Control will jump here if $DIR does NOT exists ###
+  echo " "
+fi
+
+
+DIR="/data/data/com.termux/files/usr/share/login/"
+if [ -d "$DIR" ]; then
+	echo " "
+else
+  # Take action if $DIR exists. #
+  mkdir /data/data/com.termux/files/usr/share/login/
+fi
+
+
 
 #TODO: hide input
 echo " "
@@ -31,7 +53,8 @@ if [ $passone = $passtwo ];
 then
 	touch /data/data/com.termux/files/usr/share/login/.pass
 	python -c "import hashlib; print(hashlib.sha1(b'$passone').hexdigest())" > /data/data/com.termux/files/usr/share/login/.pass
-echo "[*]Login succesfully installed"
+echo -e "\e[31m[*]\e[32mLogin succesfully installed \e[m"
+echo " "
 elif [ $passone != $passtwo ];
 then
 	echo 'Password dont match'
