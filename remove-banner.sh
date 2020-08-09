@@ -5,14 +5,13 @@ mv bash.bashrc $HOME
 cd  /data/data/com.termux/files/usr/etc
 rm bash.bashrc
 cd $HOME
-
+clear
+bash ashi.sh
 mv bash.bashrc /data/data/com.termux/files/usr/etc
 echo " " 
-echo " "
 echo -e "[*]\e[33m Open a new Session \e[m" 
-echo " "
 echo -e  "[*]\e[33m Successfully Removed the banner \e[m "
-sleep 2.0
+sleep 3.0
 cd $HOME
 
 tput clear

@@ -30,7 +30,6 @@ cat "user.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
 
 cat "ash.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
 
-echo " "
 sleep 3
 
 

@@ -28,7 +28,7 @@ Hope you guys like this Project,then dont forget to give it a like.
 ```
 $ pkg update && pkg upgrade && pkg install git -y
 
-$ git clone https://github.com/Bhaviktutorials/Termux-Megapackage
+$ git clone https://github.com/Bhaviktutorials/T-Remix
 
 $ ls
 
@@ -45,7 +45,7 @@ $ bash t-remix.sh
 #### Before Installing T-Remix Termux Looks:-
 
 ![Screenshot_20200808_161602](https://user-images.githubusercontent.com/64035221/89708658-86510580-d996-11ea-9739-aae202ce3ee2.jpg)
-![Screenshot_20200808_161610](https://user-images.githubusercontent.com/64035221/89708659-87823280-d996-11ea-8aea-a0b52112c5b4.jpg)
+
 
 #### During Installing _T-Remix_ Termux Looks:-
 
@@ -56,8 +56,8 @@ $ bash t-remix.sh
 
 #### After Installing _T-Remix_ Termux Looks Login Screen:-
 
-![Screenshot_20200808_163855](https://user-images.githubusercontent.com/64035221/89708680-bd271b80-d996-11ea-8342-5c6eef3b0a28.jpg)
 
+![ffd9736e-5e1f-493c-a4be-815d4cb45b4e](https://user-images.githubusercontent.com/69382688/89712145-91169500-d9ac-11ea-9a45-de875097a7c9.jpg)
 #### After Installing _T-Remix_ Termux Looks Home Page:-
 
 ![Screenshot_20200808_163922](https://user-images.githubusercontent.com/64035221/89708696-f495c800-d996-11ea-87be-76902f58c1ca.jpg)
