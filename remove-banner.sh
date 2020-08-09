@@ -4,8 +4,8 @@ cd remove
 mv bash.bashrc $HOME 
 cd  /data/data/com.termux/files/usr/etc
 rm bash.bashrc
-cd $HOME
 clear
+cd $HOME
 cd T-Remix
 bash ashi.sh
 cd $HOME
