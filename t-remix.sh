@@ -2,27 +2,26 @@
 #Installing the following packages to install T-Remix
 #storage permission 
 echo " "
-echo " "
 echo -e "\e[32m[*]\e[34m Installing T-Remix \e[m "
 termux-setup-storage
 #updating the packages
-apt-get update -yq --silent
+apt-get update -y
  #upgrading the packages
 apt-get upgrade -y
  #installing python if not installed ;if install null
-apt-get install python -yq --silent
+apt-get install python -y
 #packing up figlet
 apt-get install figlet -y
 #Installing ruby
-apt-get  install ruby -yq --silent
+apt-get  install ruby -y
 #parsing ruby ....
 pip install lolcat
 #install lolcat with gems
 gem install lolcat
 #Install toilet
-apt-get install toilet -yq --silent
+apt-get install toilet -y
 # now installing ncurses-utils
-apt-get install ncurses-utils -y
+pkg install ncurses-utils -y
 
 
 clear
