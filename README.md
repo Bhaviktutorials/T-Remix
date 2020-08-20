@@ -26,6 +26,8 @@ Hope you guys like this Project,then dont forget to give it a like.
 ### Installation T-Remix
 * `Commands` for termux
 ```
+$ termux-setup-storage
+  
 $ pkg update && pkg upgrade && pkg install git -y
 
 $ git clone https://github.com/Bhaviktutorials/T-Remix
