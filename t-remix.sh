@@ -211,6 +211,25 @@ figlet -f slant "Bhavik Tutorials" |lolcat
 echo " "
 echo " "
 #done setting up
+
+DIR="$HOME/.termux"
+ if [ -d "$DIR" ]
+then 
+  echo
+else
+  mkdir $HOME/.termux
+fi
+
+FILE="$HOME/.termux/termux.properties"
+if [ -f "$FILE" ]
+then 
+  echo
+else
+  cd $HOME/.termux/
+  touch termux.properties
+fi
+
+cd $HOME
 echo "bell-character=ignore" >> /data/data/com.termux/files/home/.termux/termux.properties && termux-reload-settings
 echo
 ############################################################
