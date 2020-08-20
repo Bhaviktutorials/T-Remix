@@ -1,8 +1,14 @@
-#! /bin/bash
+#!/data/data/com.termux/files/usr/bin/bash
+######################################
+#        PROJECT: T-Remix            #
+#        Author: Ashish              #
+#  email: ashishsingh103020@gmailcom #
+
 #Installing the following packages to install T-Remix
-#storage permission 
 echo " "
 echo -e "\e[32m[*]\e[34m Installing T-Remix \e[m "
+echo
+#storage permission
 termux-setup-storage
 #updating the packages
 apt-get update -y
@@ -203,5 +209,10 @@ tput cup 20 0
 figlet -f slant "Bhavik Tutorials" |lolcat
 echo " "
 echo " "
-
-
+#done setting up
+echo "bell-character=ignore" >> /data/data/com.termux/files/home/.termux/termux.properties && termux-reload-settings
+echo
+############################################################
+#         T-Remix                                          #
+#  simply changing this banner will not develop your skill #
+############################################################
