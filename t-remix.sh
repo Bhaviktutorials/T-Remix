@@ -3,6 +3,7 @@
 #        PROJECT: T-Remix            #
 #        Author: Ashish              #
 #  email: ashishsingh103020@gmailcom #
+######################################
 
 #Installing the following packages to install T-Remix
 echo " "
