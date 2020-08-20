@@ -1,7 +1,7 @@
 cd $HOME
 cd T-Remix
 cd remove
-mv bash.bashrc $HOME 
+cp bash.bashrc $HOME 
 cd  /data/data/com.termux/files/usr/etc
 rm bash.bashrc
 clear
