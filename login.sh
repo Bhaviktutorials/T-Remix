@@ -40,9 +40,12 @@ echo -e "\e[34m[*]\e[m \e[33mcreate a password \e[m"
 sleep 2
 echo -e "\e[34m[*]\e[m \e[33msave user input \e[m"
 echo " "
-sleep 3
 echo -e "\e[32m-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+- \e[m "
-echo " "                                                                         
+echo " "
+sleep 2
+clear
+echo
+echo
 echo -e  "\e[32mEnter password for login: \e[m"
 read passone
 echo -e "\e[32mRepeat password: \e[m "
