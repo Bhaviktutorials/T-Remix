@@ -16,7 +16,7 @@ apt-get update -y
  #upgrading the packages
 apt-get upgrade -y
  #installing python if not installed ;if install null
-apt-get install python -y
+#apt-get install python -y
 #packing up figlet
 apt-get install figlet -y
 #Installing ruby
