@@ -1,5 +1,5 @@
 #!/data/data/com.termux/files/usr/bin/bash
-#pkg install python -y
+pkg install python -y
 clear
 cp login.py $PREFIX/bin/
 chmod 700 $PREFIX/bin/login.py
