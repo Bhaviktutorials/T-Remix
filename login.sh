@@ -1,4 +1,5 @@
 #!/data/data/com.termux/files/usr/bin/bash
+pkg install python -y
 clear
 cp login.py $PREFIX/bin/
 chmod 700 $PREFIX/bin/login.py
@@ -9,7 +10,7 @@ chmod 700 $PREFIX/bin/login
 
 DIR="/data/data/com.termux/files/usr/etc/motd"
 if [ -d "$DIR" ]; then
-  ### Take action if $DIR exists ###
+  ### Take action if $DIR doesnt exists ###
   rm /data/data/com.termux/files/usr/etc/motd
 else
   ###  Control will jump here if $DIR does NOT exists ###
@@ -17,15 +18,21 @@ else
 fi
 
 
-DIR="/data/data/com.termux/files/usr/share/login/"
-if [ -d "$DIR" ]; then
+DIR1="/data/data/com.termux/files/usr/share/login/"
+if [ -d "$DIR1" ]; then
 	echo " "
 else
   # Take action if $DIR exists. #
   mkdir /data/data/com.termux/files/usr/share/login/
 fi
 
-
+FILES=/data/data/com.termux/files/usr/bin/python
+if [ -f $FILES ]
+then
+ echo
+else 
+ exit 0
+fi
 
 #TODO: hide input
 echo " "
