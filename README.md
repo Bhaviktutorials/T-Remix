@@ -2,7 +2,7 @@
 
 # <p align="center">T-Remix
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/64035221/89707674-0fb00a00-d98e-11ea-95c7-43000838eb1d.jpg">
+  <img src="https://user-images.githubusercontent.com/64035221/91631853-7018f100-e9fa-11ea-869d-fa8441b28900.jpg">
 </p>
 <p align="center">Customize Your Termux
 <p align="center">
