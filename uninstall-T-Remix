@@ -1,0 +1,204 @@
+#!/data/data/com.termux/files/usr/bin/bash
+# REMOVE BANNER,LOGIN,THEMES
+
+clear
+#Remove Banner
+remove_banner() {
+
+# Remove T-Remix Banner 
+# save old login
+
+# change dir to ~
+cd $HOME
+cd T-Remix_v2.0
+cd remove
+
+# moving default bash.bashcrc to ~
+mv bash.bashrc $HOME 
+
+# remove T-Remix bash.bashrc
+cd  /data/data/com.termux/files/usr/etc
+rm bash.bashrc
+
+# change dir to home
+cd $HOME
+cd T-Remix_v2.0
+
+echo
+echo ">>> Removing T-Remix Banner" |lolcat
+bash ashi.sh
+cd $HOME
+
+# replace default bash.bashrc
+mv bash.bashrc /data/data/com.termux/files/usr/etc
+
+echo 
+echo -e "\e[33m[\e[31m*\e[33m]\e[33m Open a new Session \e[m" 
+echo
+sleep 1
+echo -e  "\e[33m[\e[31m*\e[33m]\e[33m Successfully Removed the banner \e[m "
+sleep 2
+}
+
+# Remove login
+remove_login() {
+# remove Password login
+# save default motd login
+
+cd $HOME
+cd /data/data/com.termux/files/usr/etc
+rm -rf motd 
+cd $HOME
+cd T-Remix_v2.0
+cd remove
+cp motd /data/data/com.termux/files/usr/etc
+rm $PREFIX/bin/login.py
+cp old_login $PREFIX/bin/login
+chmod 700 $PREFIX/bin/login
+echo 
+cd $HOME/T-Remix_v2.0
+echo ">>> Removing T-Remix login " |lolcat
+bash ashi.sh
+echo -e "\e[31m[\e[32m*\e[31m]\e[33m Removing T-Remix \e[m "
+sleep 2
+echo
+echo -e "\e[31m[\e[32m*\e[31m]\e[33m Loading\e[m "
+sleep 3
+echo
+echo -e "\e[31m[\e[32m*\e[31m]\e[33m Successfully Removed Login\e[m "
+sleep 2
+}
+
+# Remove t-remix theme
+remove_theme() {
+cd $HOME
+file="$HOME/.termux/colors.properties"
+if [ -f $file ]
+then 
+rm $HOME/.termux/colors.properties
+else
+echo
+fi
+echo 
+echo ">>> Removing T-Remix Theme" |lolcat
+cd $HOME/T-Remix_v2.0
+bash ashi.sh
+echo "[~] changing theme" |lolcat
+echo
+sleep 2
+echo "[~] Setting theme as default" |lolcat
+echo
+sleep 3
+termux-reload-settings
+echo "[~] Done " |lolcat
+}
+
+# Remove Font
+
+remove_font() {
+# Remove t-remix font
+
+cd $HOME
+file="$HOME/.termux/font.ttf"
+if [ -f $file ]
+then 
+rm $HOME/.termux/font.ttf
+else
+echo
+fi
+echo 
+echo ">>> Removing T-Remix Font" |lolcat
+cd $HOME/T_Remix
+bash ashi.sh
+echo "[~] changing font" |lolcat
+echo
+sleep 2
+echo "[~] Setting font as default" |lolcat
+echo
+sleep 3
+termux-reload-settings
+echo "[~] Done " |lolcat
+}
+
+
+while :
+do
+echo
+echo
+echo "[~] select the option to remove" | lolcat
+echo
+echo "1) Remove Banner" |lolcat
+echo
+echo "2) Remove Login" |lolcat
+echo
+echo "3) Remove Theme" |lolcat
+echo
+echo "4) Remove Font" |lolcat -t
+echo
+echo "5) All " |lolcat
+echo
+echo
+
+read -p  $'\e[31m[\e[32m*\e[31m]\e[32m choose your option :\e[m ' option
+
+if [ $option = 1 ] || [ $option = 01 ]
+then
+remove_banner
+break
+
+elif [ $option = 2 ] || [ $option = 02 ]
+then
+remove_login
+break
+
+elif [ $option = 3 ] || [ $option = 03 ]
+then
+remove_theme
+break
+
+elif [ $option = 4 ] || [ $option = 04 ]
+then
+remove_font
+break
+
+elif [ $option = 5 ] || [ $option = 05 ]
+then
+remove_banner
+remove_login
+remove_theme
+remove_font
+break
+
+else
+echo
+echo "[!] Invalid option try again" |lolcat
+sleep 2
+fi
+done
+
+# like subscribe channel
+clear
+tput clear
+tput cup 3 30
+echo -e "\e[44m Like \e[41m Subscribe \e[m"
+tput cup 6 30
+echo -e "\x1b[42m BHAVIK TUTORIALS \x1b[m"
+tput cup 9 0
+echo -en "\e[93m what is your name : \e[m"
+read answer
+tput cup 12 22
+echo -e "\e[104m hello! Open a New session!! $answer! \e[m"
+tput cup 15 0
+echo -en "\e[93m Have you subscribe our channel (y/n)? \e[m "
+read answer
+
+if [ "$answer" != "${answer#[Yy]}" ] ;then
+tput cup 17 21
+    echo -e "\e[42m Thankyou for subscribing our channel \e[m"
+else
+tput cup 17 23
+    echo -e "\e[41m Please subsrcibe our channel \e[m"
+fi
+tput cup 20 0
+figlet -f slant "Bhavik Tutorials" |lolcat
+echo

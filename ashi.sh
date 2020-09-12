@@ -1,4 +1,7 @@
-#!/bin/bash
+#!data/data/com.termux/files/usr/bin/bash
+# Progess bar
+# spinner'
+
 progreSh() {
     LR='\033[1;31m'
     LG='\033[1;32m'
@@ -63,5 +66,5 @@ progreSh 90
 progreSh 100
 printf "\n\n\n\n\n\n\n\n\n\n"
 
-sleep 2
+sleep 1
 

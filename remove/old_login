@@ -1,4 +1,10 @@
 #!/data/data/com.termux/files/usr/bin/sh
+# old login page
+# cp old_login if remove-login.sh is exec
+# saving old login
+# passwd is none
+# copy old motd and replace it
+
 
 if [ $# = 0 ] && [ -f $PREFIX/etc/motd ] && [ ! -f ~/.hushlogin ]; then
 	cat $PREFIX/etc/motd

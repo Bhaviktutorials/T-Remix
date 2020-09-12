@@ -1,5 +1,4 @@
 #!/data/data/com.termux/files/usr/bin/env python
-
 import getpass
 import hashlib
 import sys
