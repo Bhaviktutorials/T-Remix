@@ -116,7 +116,7 @@ rm -rf motd
 cd $HOME
 
 # Change dir to T-Remix
-cd T-Remix_v2.0
+cd T-Remix
 
 #copy new bash.bashrc to usr/etc
 cp bash.bashrc /data/data/com.termux/files/usr/etc
@@ -138,7 +138,7 @@ cp uninstall-T-Remix ${PREFIX}/bin
 cd $HOME
 
 #change directory to T-Remix
-cd T-Remix_v2.0
+cd T-Remix
 
 #from here copying the hacker.mp3 sound to the sdcard of the user
 cp hacker.mp3 /sdcard
@@ -241,7 +241,7 @@ fi
  
 clear
 cd $HOME
-cd T-Remix_v2.0
+cd T-Remix
 
 #start a loop for invalid option
 #user define themes 
@@ -570,7 +570,7 @@ tput cnorm
 
 # take action if dir !
 cd $HOME
-cd T-Remix_v2.0/properties/T-Remix_fonts/
+cd T-Remix/properties/T-Remix_fonts/
 if [  -f ~/.termux/font.ttf ]
 then 
 echo 
