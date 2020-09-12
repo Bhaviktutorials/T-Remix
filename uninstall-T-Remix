@@ -56,7 +56,7 @@ rm $PREFIX/bin/login.py
 cp old_login $PREFIX/bin/login
 chmod 700 $PREFIX/bin/login
 echo 
-cd $HOME/T-Remix_v2.0
+cd $HOME/T-Remix
 echo ">>> Removing T-Remix login " |lolcat
 bash ashi.sh
 echo -e "\e[31m[\e[32m*\e[31m]\e[33m Removing T-Remix \e[m "
