@@ -11,7 +11,7 @@
 # elif prcoceed the login 
 
 #copying login file to bin
-cd $HOME/T-Remix_v2.0
+cd $HOME/T-Remix
 cp login.py $PREFIX/bin/
 
 #give executable permission to login.py
