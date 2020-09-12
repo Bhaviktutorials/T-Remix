@@ -11,12 +11,12 @@
 cd $HOME
 
 # copying ascii-shadow font to share/figlet
-cd T-Remix_v2.0/properties
+cd T-Remix/properties
 cp ASCII-Shadow.flf ${PREFIX}/share/figlet
 
 # change dir to home/T-Remix
 cd $HOME
-cd T-Remix_v2.0
+cd T-Remix
 
 # Read user define varible and save user input
 echo
