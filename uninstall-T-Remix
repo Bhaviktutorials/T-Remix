@@ -10,7 +10,7 @@ remove_banner() {
 
 # change dir to ~
 cd $HOME
-cd T-Remix_v2.0
+cd T-Remix
 cd remove
 
 # moving default bash.bashcrc to ~
@@ -22,7 +22,7 @@ rm bash.bashrc
 
 # change dir to home
 cd $HOME
-cd T-Remix_v2.0
+cd T-Remix
 
 echo
 echo ">>> Removing T-Remix Banner" |lolcat
@@ -49,7 +49,7 @@ cd $HOME
 cd /data/data/com.termux/files/usr/etc
 rm -rf motd 
 cd $HOME
-cd T-Remix_v2.0
+cd T-Remix
 cd remove
 cp motd /data/data/com.termux/files/usr/etc
 rm $PREFIX/bin/login.py
@@ -81,7 +81,7 @@ echo
 fi
 echo 
 echo ">>> Removing T-Remix Theme" |lolcat
-cd $HOME/T-Remix_v2.0
+cd $HOME/T-Remix
 bash ashi.sh
 echo "[~] changing theme" |lolcat
 echo
@@ -108,7 +108,7 @@ echo
 fi
 echo 
 echo ">>> Removing T-Remix Font" |lolcat
-cd $HOME/T_Remix
+cd $HOME/T-Remix
 bash ashi.sh
 echo "[~] changing font" |lolcat
 echo
