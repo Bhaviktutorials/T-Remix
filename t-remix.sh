@@ -565,6 +565,53 @@ fi
 done
 tput cnorm
 
+# save a session shortcut
+# dir checker
+
+if [ -f ~/.termux/termux.properties ]
+then 
+echo
+else 
+touch  ~/.termux/termux.properties
+fi 
+
+# shortut
+clear
+echo 
+echo
+echo -e "\e[36m================================\e[m"
+echo -e "\e[32m            NOTE \e[m" 
+echo -e "\e[36m================================\e[m" 
+echo
+echo -e "\e[34m[\e[31m*\e[34m] \e[32mT-Remix has created a session shortcut\e[m" 
+echo 
+echo -e "\e[36m[\e[32m*\e[36m]\e[32m New session shortcut ---> CTRL + n \e[m"
+echo 
+echo -e "\e[36m[\e[32m*\e[36m]\e[32m Next session shortcut ---> CTRL + l \e[m"
+echo 
+echo -e  "\e[36m[\e[32m*\e[36m]\e[32m Previous session shortcut ---> CTRL + p \e[m"
+echo 
+
+echo -en "\e[36m[\e[32m*\e[36m]\e[93m Do you wish to make shortcut changes (y/n)? \e[m "
+read answer
+echo
+if [ "$answer" != "${answer#[Yy]}" ]
+then
+echo "shortcut.create-session = ctrl + n
+shortcut.next-session = ctrl + l
+shortcut.previous-session = ctrl + p" >> ~/.termux/termux.properties
+echo
+sleep 1
+echo
+echo ">> Shortcut has been applied successfully" |lolcat -t
+sleep 5
+else 
+echo
+echo ">> Shortcut not applied !! " |lolcat -t
+sleep 2
+fi
+
+
 # USER DEFINE FONTS
 # select option
 
@@ -732,53 +779,7 @@ echo "\e[32m[\e[31m!\e[32m]\e[31m Invalid option Try again :\e[m"
 sleep 3
 fi
 done
-
 tput cnorm
-# save a session shortcut
-# dir checker
-
-if [ -f ~/.termux/termux.properties ]
-then 
-echo
-else 
-touch  ~/.termux/termux.properties
-fi 
-
-# shortut
-clear
-echo 
-echo
-echo -e "\e[36m================================\e[m"
-echo -e "\e[32m            NOTE \e[m" 
-echo -e "\e[36m================================\e[m" 
-echo
-echo -e "\e[34m[\e[31m*\e[34m] \e[32mT-Remix has created a session shortcut\e[m" 
-echo 
-echo -e "\e[36m[\e[32m*\e[36m]\e[32m New session shortcut ---> CTRL + n \e[m"
-echo 
-echo -e "\e[36m[\e[32m*\e[36m]\e[32m Next session shortcut ---> CTRL + l \e[m"
-echo 
-echo -e  "\e[36m[\e[32m*\e[36m]\e[32m Previous session shortcut ---> CTRL + p \e[m"
-echo 
-
-echo -en "\e[36m[\e[32m*\e[36m]\e[93m Do you wish to make shortcut changes (y/n)? \e[m "
-read answer
-echo
-if [ "$answer" != "${answer#[Yy]}" ]
-then
-echo "shortcut.create-session = ctrl + n
-shortcut.next-session = ctrl + l
-shortcut.previous-session = ctrl + p" >> ~/.termux/termux.properties
-echo
-sleep 1
-echo
-echo ">> Shortcut has been applied successfully" |lolcat -t
-sleep 5
-else 
-echo
-echo ">> Shortcut not applied !! " |lolcat -t
-sleep 2
-fi
 
 # Like Subscribe BhavikTutorials
 clear
