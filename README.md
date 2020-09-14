@@ -48,21 +48,19 @@ $ bash t-remix.sh
 
 ![Screenshot_20200808_161602](https://user-images.githubusercontent.com/64035221/89708658-86510580-d996-11ea-9739-aae202ce3ee2.jpg)
 
-
-#### During Installing _T-Remix_ Termux Looks:-
-
-![Screenshot_20200808_163048](https://user-images.githubusercontent.com/64035221/89708731-3888cd00-d997-11ea-8e3d-b4709b7698c0.jpg)
-![Screenshot_20200808_163635](https://user-images.githubusercontent.com/64035221/89708732-39b9fa00-d997-11ea-9eb1-4f8fbe81d986.jpg)
-![Screenshot_20200808_163729](https://user-images.githubusercontent.com/64035221/89708733-3a529080-d997-11ea-8c6a-ce5e4d39b282.jpg)
-![Screenshot_20200808_163752](https://user-images.githubusercontent.com/64035221/89708734-3a529080-d997-11ea-8e10-e09e358586ca.jpg)
-
 #### After Installing _T-Remix_ Termux Looks Login Screen:-
 
+![Screenshot_20200914_154711](https://user-images.githubusercontent.com/64035221/93075754-e298fa80-f6a3-11ea-979d-97ff94c2ddf5.jpg)
 
-![ffd9736e-5e1f-493c-a4be-815d4cb45b4e](https://user-images.githubusercontent.com/69382688/89712145-91169500-d9ac-11ea-9a45-de875097a7c9.jpg)
 #### After Installing _T-Remix_ Termux Looks Home Page:-
 
-![Screenshot_20200808_163922](https://user-images.githubusercontent.com/64035221/89708696-f495c800-d996-11ea-87be-76902f58c1ca.jpg)
+![Screenshot_20200901_150716](https://user-images.githubusercontent.com/64035221/93075823-fd6b6f00-f6a3-11ea-9609-cb84e25cefda.jpg)
+![Screenshot_20200901_151852](https://user-images.githubusercontent.com/64035221/93075830-fe9c9c00-f6a3-11ea-8b64-c46b0495e876.jpg)
+![Screenshot_20200901_152348](https://user-images.githubusercontent.com/64035221/93075834-ff353280-f6a3-11ea-925d-53b480d70ea2.jpg)
+![Screenshot_20200901_152938](https://user-images.githubusercontent.com/64035221/93075836-ffcdc900-f6a3-11ea-89d2-8f52df0362e2.jpg)
+![Screenshot_20200901_153649](https://user-images.githubusercontent.com/64035221/93075838-00665f80-f6a4-11ea-8a60-0722bc8f4c07.jpg)
+![Screenshot_20200914_154729](https://user-images.githubusercontent.com/64035221/93075840-00fef600-f6a4-11ea-9eed-545395273e77.jpg)
+
 ***
 
 ### To Remove T-Remix
