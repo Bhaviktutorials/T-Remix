@@ -64,23 +64,11 @@ $ bash t-remix.sh
 
 ![Screenshot_20200808_163922](https://user-images.githubusercontent.com/64035221/89708696-f495c800-d996-11ea-87be-76902f58c1ca.jpg)
 ***
-### To Remove Banner
-* `Commands` for termux
+
+### To Remove T-Remix
 ```
-$ cd T-Remix
-
-$ ls
-
-$ bash remove-banner.sh
-```
-### To Remove Login
-* `Commands` for termux
-```
-$ cd T-Remix
-
-$ ls
-
-$ bash remove-login.sh
+###### type below command from anywhere & choose the option you want to remove
+$ uninstall-T-Remix
 ```
 ### Development by
 
