@@ -88,9 +88,9 @@ $ uninstall-T-Remix
 
 Developer / Author: [Ashish]() / [Bhavik Oza](https://github.com/Bhaviktutorials/)
 
-Company: [Bhavik Tutorials](https://www.youtube.com/bhaviktutorials)
+Company: [Bhavik Tutorials](https://www.youtube.com/channel/UCMhYgk0-nIHHtnRNkL9zpgQ)
 
 ## To Know about Ethical Hacking , Android And Kali Linux Do Follow Us:-
 
 [![Github](https://github.frapsoft.com/social/github.png)](https://github.com/Bhaviktutorials/)
-[![Youtube](https://www.youtube.com/bhaviktutorials)](https://user-images.githubusercontent.com/64035221/89710200-6f161600-d99e-11ea-9bee-0891b79f7865.png)
+
