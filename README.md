@@ -23,7 +23,19 @@
 T-Remix or Termux will Help to Customise Your Termux in such a way that you will Enjoy using Termux it will give you a morden look and we also have add a feature of password,so now you can also set Password on your Termux and protect it so no one can login in your termux in absence of you.
 one more feature that we have added is that you can change dollar sign and put anything you want in that place.
 Hope you guys like this Project,then dont forget to give it a like.
-### Installation T-Remix
+
+* `Change Log` 
+```
+  • New Banner Fonts Added
+  • New Theme Feature Added
+  • Multiple Curser Choise 
+  • Lock Screen Bugs Fixed
+  • Access Granted Sound
+  • New Fonts In Termux Added
+  • Password Protection
+ ```
+ ### Installation T-Remix
+  
 * `Commands` for termux
 ```
 $ termux-setup-storage
@@ -42,6 +54,9 @@ $ chmod +x *
 
 $ bash t-remix.sh
 ```
+#### For Video Tutorial:-
+[YouTube](https://youtu.be/8herILka7_o)
+
 ### Screenshots
 
 #### Before Installing T-Remix Termux Looks:-
@@ -63,12 +78,13 @@ $ bash t-remix.sh
 
 ***
 
-### To Remove T-Remix
+### To Remove T-Remix :- 
+
 * type below command from anywhere & choose the option you want to remove
 ```
 $ uninstall-T-Remix
 ```
-### Development by
+### Developed by
 
 Developer / Author: [Ashish]() / [Bhavik Oza](https://github.com/Bhaviktutorials/)
 
