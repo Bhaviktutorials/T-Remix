@@ -67,7 +67,7 @@ $ bash t-remix.sh
 
 ### To Remove T-Remix
 ```
-###### type below command from anywhere & choose the option you want to remove
+type below command from anywhere & choose the option you want to remove
 $ uninstall-T-Remix
 ```
 ### Development by
