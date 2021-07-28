@@ -37,5 +37,5 @@ else:
 
     if motd and not hush:
         print(open(prefix + "/etc/motd").read())
-    
+
     os.system(sys.argv[1] + " " + sys.argv[2])

@@ -5,7 +5,7 @@ clear
 #Remove Banner
 remove_banner() {
 
-# Remove T-Remix Banner 
+# Remove T-Remix Banner
 # save old login
 
 # change dir to ~
@@ -14,7 +14,7 @@ cd T-Remix
 cd remove
 
 # moving default bash.bashcrc to ~
-mv bash.bashrc $HOME 
+mv bash.bashrc $HOME
 
 # remove T-Remix bash.bashrc
 cd  /data/data/com.termux/files/usr/etc
@@ -32,8 +32,8 @@ cd $HOME
 # replace default bash.bashrc
 mv bash.bashrc /data/data/com.termux/files/usr/etc
 
-echo 
-echo -e "\e[33m[\e[31m*\e[33m]\e[33m Open a new Session \e[m" 
+echo
+echo -e "\e[33m[\e[31m*\e[33m]\e[33m Open a new Session \e[m"
 echo
 sleep 1
 echo -e  "\e[33m[\e[31m*\e[33m]\e[33m Successfully Removed the banner \e[m "
@@ -47,7 +47,7 @@ remove_login() {
 
 cd $HOME
 cd /data/data/com.termux/files/usr/etc
-rm -rf motd 
+rm -rf motd
 cd $HOME
 cd T-Remix
 cd remove
@@ -55,7 +55,7 @@ cp motd /data/data/com.termux/files/usr/etc
 rm $PREFIX/bin/login.py
 cp old_login $PREFIX/bin/login
 chmod 700 $PREFIX/bin/login
-echo 
+echo
 cd $HOME/T-Remix
 echo ">>> Removing T-Remix login " |lolcat
 bash ashi.sh
@@ -74,12 +74,12 @@ remove_theme() {
 cd $HOME
 file="$HOME/.termux/colors.properties"
 if [ -f $file ]
-then 
+then
 rm $HOME/.termux/colors.properties
 else
 echo
 fi
-echo 
+echo
 echo ">>> Removing T-Remix Theme" |lolcat
 cd $HOME/T-Remix
 bash ashi.sh
@@ -101,12 +101,12 @@ remove_font() {
 cd $HOME
 file="$HOME/.termux/font.ttf"
 if [ -f $file ]
-then 
+then
 rm $HOME/.termux/font.ttf
 else
 echo
 fi
-echo 
+echo
 echo ">>> Removing T-Remix Font" |lolcat
 cd $HOME/T-Remix
 bash ashi.sh

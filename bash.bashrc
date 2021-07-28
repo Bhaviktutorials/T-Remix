@@ -4,9 +4,9 @@ command_not_found_handle() {
 tput civis
 mpv /sdcard/hacker.mp3 > /dev/null 2>&1
 clear
-echo 
-echo "      
-                 < ━━━━━━━━━━━━━━ [★] T E R M U X [★] ━━━━━━━━━━━━━━ >  " |lolcat                 
-echo 
+echo
+echo "
+                 < ━━━━━━━━━━━━━━ [★] T E R M U X [★] ━━━━━━━━━━━━━━ >  " |lolcat
+echo
 
 

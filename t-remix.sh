@@ -6,7 +6,7 @@
 ######################################
 
 # Installing the following packages to install T-Remix
-echo 
+echo
 echo -e "\e[32m[*]\e[34m Installing T-Remix \e[m "
 echo
 # storage permission
@@ -63,10 +63,10 @@ mv figlet-fonts/* figlet &&  rm -rf figlet-fonts
 cd $HOME
 
 
-# T-Remix Banner 
+# T-Remix Banner
 
 clear
-echo 
+echo
 # hide cursor
 tput civis
 echo "
@@ -85,7 +85,7 @@ echo "                             s c r i p t  b y  a s h i s h            " |l
 echo "             ☆:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::☆" |lolcat -t
 
 sleep 3
-echo 
+echo
 echo
 echo "[*] Installing T-Remix  " |lolcat
 echo
@@ -126,7 +126,7 @@ tfile="${PREFIX}/bin/uninstall-T-Remix"
 if [ -f "$tfile" ]
 then
 rm ${PREFIX}/bin/uninstall-T-Remix
-else 
+else
 echo
 fi
 
@@ -153,7 +153,7 @@ echo
 tput civis
 echo -e "\033[1;34m[*]\e[33m Setting login information \e[m"
 echo
-sleep 3                                                                  
+sleep 3
 echo -e "\033[1;34m[*]\e[33m Installing Login Packages \e[m "
 echo
 sleep 4
@@ -169,21 +169,21 @@ sleep 1
 echo -e "\033[1;34m[*]\e[33m Done \e[m "
 sleep 3
 tput cnorm
-# Login Banner 
+# Login Banner
 
 clear
-echo 
-echo 
+echo
+echo
 tput civis
-echo -e "\e[32m    
+echo -e "\e[32m
 
                        ██╗      █████╗  ██████╗ ██╗███╗  ██╗
                        ██║     ██╔══██╗██╔════╝ ██║████╗ ██║
                        ██║     ██║  ██║██║  ██╗ ██║██╔██╗██║
                        ██║     ██║  ██║██║  ╚██╗██║██║╚████║
-                       ███████╗╚█████╔╝╚██████╔╝██║██║ ╚███║         
+                       ███████╗╚█████╔╝╚██████╔╝██║██║ ╚███║
 		       ╚══════╝ ╚════╝  ╚═════╝ ╚═╝╚═╝  ╚══╝ v 2.0 "
-echo 
+echo
 echo "            ☆:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::☆" |lolcat -t
 echo "                            s c r i p t  b y  a s h i s h            " |lolcat -t
 echo "            ☆:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::☆" |lolcat -t
@@ -191,10 +191,10 @@ echo "            ☆:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 sleep 4
 tput cnorm
 
-# SETTING UP A LOGIN INFORMATION FROM USER SIDE 
+# SETTING UP A LOGIN INFORMATION FROM USER SIDE
 bash login.sh
 
-#spinner 
+#spinner
 bash ashi.sh
 
 # user custom theme setup
@@ -204,7 +204,7 @@ bash ashi.sh
 #Dir=.termux
 DIR="$HOME/.termux"
  if [ -d "$DIR" ]
-then 
+then
   echo
 else
   mkdir $HOME/.termux
@@ -213,7 +213,7 @@ fi
 #file1=termux.properties
 FILE="$HOME/.termux/termux.properties"
 if [ -f "$FILE" ]
-then 
+then
   echo
 else
   cd $HOME/.termux/
@@ -224,27 +224,27 @@ fi
 FILES1="$HOME/.termux/colors.properties"
 if [ -f "FILES1" ]
  then
-  echo 
- else 
+  echo
+ else
   cd $HOME/.termux/
   touch colors.properties
  fi
- 
+
  #file1=$PREFIX/bin/zsh
 FILE2="$PREFIX/bin/zsh"
 if [ -f "$FILE2" ]
-then 
+then
   rm -rf $PREFIX/bin/zsh
 else
   echo
 fi
- 
+
 clear
 cd $HOME
 cd T-Remix
 
 #start a loop for invalid option
-#user define themes 
+#user define themes
 #The top 14 best themes for termux
 
 #start of while loop
@@ -252,7 +252,7 @@ cd T-Remix
 #choose options
 while :
 do
-echo 
+echo
 echo "===============================" |lolcat
 echo "    Various themes options" |lolcat
 echo "===============================" |lolcat
@@ -284,7 +284,7 @@ then
  echo
  echo -e "\e[33m>> Applying changes \e[m"
  sleep 3
- echo 
+ echo
  echo -e "\e[33m>> Done \e[m"
  echo
  sleep 2
@@ -299,7 +299,7 @@ then
  echo
  echo -e "\e[33m>> Applying changes \e[m"
  sleep 3
- echo 
+ echo
  echo -e "\e[33m>> Done \e[m"
  echo
  sleep 2
@@ -314,7 +314,7 @@ then
  echo
  echo -e "\e[33m>> Applying changes \e[m"
  sleep 3
- echo 
+ echo
  echo -e "\e[33m>> Done \e[m"
  sleep 2
  echo
@@ -329,7 +329,7 @@ then
  echo
  echo -e "\e[33m>> Applying changes \e[m"
  sleep 3
- echo 
+ echo
  echo -e "\e[33m>> Done \e[m"
  sleep 2
  echo
@@ -344,7 +344,7 @@ then
  echo
  echo -e "\e[33m>> Applying changes \e[m"
  sleep 3
- echo 
+ echo
  echo -e "\e[33m>> Done \e[m"
  echo
  sleep 2
@@ -359,7 +359,7 @@ then
  echo
  echo -e "\e[33m>> Applying changes \e[m"
  sleep 3
- echo 
+ echo
  echo -e "\e[33m>> Done \e[m"
  echo
  sleep 2
@@ -374,7 +374,7 @@ then
  echo
  echo -e "\e[33m>> Applying changes \e[m"
  sleep 3
- echo 
+ echo
  echo -e "\e[33m>> Done \e[m"
  echo
  sleep 2
@@ -389,7 +389,7 @@ then
  echo
  echo -e "\e[33m>> Applying changes \e[m"
  sleep 3
- echo 
+ echo
  echo -e "\e[33m>> Done \e[m"
  echo
  sleep 2
@@ -404,12 +404,12 @@ then
  echo
  echo -e "\e[33m>> Applying changes \e[m"
  sleep 3
- echo 
+ echo
  echo -e "\e[33m>> Done \e[m"
  echo
  sleep 2
  break
- elif [ $n = 10 ] 
+ elif [ $n = 10 ]
 then
  cd properties/T-Remix_colors
  cat night-properties > $HOME/.termux/colors.properties
@@ -419,12 +419,12 @@ then
  echo
  echo -e "\e[33m>> Applying changes \e[m"
  sleep 3
- echo 
+ echo
  echo -e "\e[33m>> Done \e[m"
  echo
  sleep 2
  break
- elif [ $n = 11 ] 
+ elif [ $n = 11 ]
 then
  cd properties/T-Remix_colors
  cat solarized-dark > $HOME/.termux/colors.properties
@@ -434,12 +434,12 @@ then
  echo
  echo -e "\e[33m>> Applying changes \e[m"
  sleep 3
- echo 
+ echo
  echo -e "\e[33m>> Done \e[m"
  echo
  sleep 2
  break
- elif [ $n = 12 ] 
+ elif [ $n = 12 ]
 then
  cd properties/T-Remix_colors
  cat solarized-light > $HOME/.termux/colors.properties
@@ -449,12 +449,12 @@ then
  echo
  echo -e "\e[33m>> Applying changes \e[m"
  sleep 3
- echo 
+ echo
  echo -e "\e[33m>> Done \e[m"
  echo
  sleep 2
  break
- elif [ $n = 13 ] 
+ elif [ $n = 13 ]
 then
  cd properties/T-Remix_colors
  cat white-on-black > $HOME/.termux/colors.properties
@@ -464,12 +464,12 @@ then
  echo
  echo -e "\e[33m>> Applying changes \e[m"
  sleep 3
- echo 
+ echo
  echo -e "\e[33m>> Done \e[m"
  echo
  sleep 2
  break
-  elif [ $n = 14 ] 
+  elif [ $n = 14 ]
 then
 echo
 tmuxcolor="$HOME/.termux/colors.properties"
@@ -485,7 +485,7 @@ fi
  echo
  echo -e "\e[33m>> Applying theme as default \e[m"
  sleep 3
- echo 
+ echo
  echo -e "\e[33m>> Done \e[m"
  echo
  sleep 2
@@ -504,7 +504,7 @@ done
 clear
 while :
 do
-echo 
+echo
 echo
 echo "==========================" |lolcat
 echo "    Set T-Remix cursor" | lolcat -t
@@ -519,7 +519,7 @@ echo
 echo
 
 read -p $'\e[32m[\e[31m*\e[32m]\e[96m Enter your choice : ' choice
-echo 
+echo
 if [ $choice = 1 ]
 then
 echo ">> Setting cursor" |lolcat -t
@@ -556,7 +556,7 @@ echo ">> Done" |lolcat -t
 sleep 2
 echo "echo -e '\e[6 q' " >> ${PREFIX}/etc/bash.bashrc
 break
-else 
+else
 echo
 echo -e  "\e[33m[\e[31m!\e[33m]\e[31m Invalid option try again \e[m"
 sleep 3
@@ -569,28 +569,28 @@ tput cnorm
 # dir checker
 
 if [ -f ~/.termux/termux.properties ]
-then 
+then
 echo
-else 
+else
 touch  ~/.termux/termux.properties
-fi 
+fi
 
 # shortut
 clear
-echo 
+echo
 echo
 echo -e "\e[36m================================\e[m"
-echo -e "\e[32m            NOTE \e[m" 
-echo -e "\e[36m================================\e[m" 
+echo -e "\e[32m            NOTE \e[m"
+echo -e "\e[36m================================\e[m"
 echo
-echo -e "\e[34m[\e[31m*\e[34m] \e[32mT-Remix has created a session shortcut\e[m" 
-echo 
+echo -e "\e[34m[\e[31m*\e[34m] \e[32mT-Remix has created a session shortcut\e[m"
+echo
 echo -e "\e[36m[\e[32m*\e[36m]\e[32m New session shortcut ---> CTRL + n \e[m"
-echo 
+echo
 echo -e "\e[36m[\e[32m*\e[36m]\e[32m Next session shortcut ---> CTRL + l \e[m"
-echo 
+echo
 echo -e  "\e[36m[\e[32m*\e[36m]\e[32m Previous session shortcut ---> CTRL + p \e[m"
-echo 
+echo
 
 echo -en "\e[36m[\e[32m*\e[36m]\e[93m Do you wish to make shortcut changes (y/n)? \e[m "
 read answer
@@ -605,7 +605,7 @@ sleep 1
 echo
 echo ">> Shortcut has been applied successfully" |lolcat -t
 sleep 5
-else 
+else
 echo
 echo ">> Shortcut not applied !! " |lolcat -t
 sleep 2
@@ -619,24 +619,24 @@ fi
 cd $HOME
 cd T-Remix/properties/T-Remix_fonts/
 if [  -f ~/.termux/font.ttf ]
-then 
-echo 
-else 
+then
+echo
+else
 touch ~/.termux/font.ttf
-fi 
+fi
 
 clear
 # start a while loop
 while :
-do 
+do
 clear
-echo 
+echo
 echo
 echo "============================" |lolcat -t
 echo "     select your Font       " |lolcat -t
 echo "============================" |lolcat -t
 echo
-echo -e "\e[31m[\e[32m01\e[31m]\e[32m Best of T-Remix " 
+echo -e "\e[31m[\e[32m01\e[31m]\e[32m Best of T-Remix "
 echo -e "\e[31m[\e[32m02\e[31m]\e[32m Anonymous "
 echo -e "\e[31m[\e[32m03\e[31m]\e[32m Robot "
 echo -e "\e[31m[\e[32m04\e[31m]\e[32m DejaVu "
@@ -761,7 +761,7 @@ echo
 echo "-->> Done" |lolcat -t
 sleep 2
 break
-elif [ $font = 10 ] 
+elif [ $font = 10 ]
 then
 cat "cursive.ttf" > ~/.termux/font.ttf
 echo "-->> changing termux font" |lolcat -t
@@ -810,11 +810,11 @@ figlet -f slant "Bhavik Tutorials" |lolcat
 #done setting up Termux terminal as a real hacker
 
 # setting up making a changes to a termux
-# Dir checker 
+# Dir checker
 # dir=.termux
 DIR="$HOME/.termux"
  if [ -d "$DIR" ]
-then 
+then
   echo
 else
   mkdir $HOME/.termux
@@ -824,7 +824,7 @@ fi
 #file=termux.properties
 FILE="$HOME/.termux/termux.properties"
 if [ -f "$FILE" ]
-then 
+then
   echo
 else
   cd $HOME/.termux/
