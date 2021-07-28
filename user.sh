@@ -6,7 +6,7 @@
 #      All copyright reserved        #
 ######################################
 
-# Customize terminal as a real hacker with user define  
+# Customize terminal as a real hacker with user define
 # Editing the bash.bashrc
 cd $HOME
 
@@ -28,7 +28,7 @@ echo
 sleep 2
 clear
 
-# Select Banner fonts below 
+# Select Banner fonts below
 # Start loop if invalid input
 
 while :
@@ -60,7 +60,7 @@ echo -e "\e[31m[\e[32m14\e[31m]\e[33m Best-of-T-Remix\e[m "
 echo
 
 read -p $'\e[34m[\e[31m*\e[34m]\e[32m Enter your choice : ' userfont
- 
+
 tput civis
 if [[ $userfont == 1 || $userfont == 01 ]]; then
 echo "figlet -f wetletter '                     $varbanner' |lolcat " > t-ban.txt
@@ -233,7 +233,7 @@ echo
 break
 elif [ $userfont == 14 ]; then
 echo "echo" > t-ban.txt
-echo "figlet -f ASCII-Shadow '     $varbanner' |lolcat -t " >> t-ban.txt 
+echo "figlet -f ASCII-Shadow '     $varbanner' |lolcat -t " >> t-ban.txt
 echo
 echo "[*] Applying T-Remix Banner " |lolcat -t
 sleep 2
@@ -259,7 +259,7 @@ echo "PS1='\[\e[1;34m
 \a┌──\a─T─I─M─E─\a──┐\033[1;34m\a┌──\a─D─A─T─E─\a───>\033[1;34m
 \a┌─[\033[1;93m \@\033[1;34m ]──[\033[1;93m \d\033[1;34m ]\033[1;34m
 \a├─[\033[1;32m\w\033[1;34m]\033[1;34m
-\[\e[34m\]└─>\[\e[35m\]$varterm\[\e[34m\][~]:#\[\e[1;32m\] ' " > ash.txt 
+\[\e[34m\]└─>\[\e[35m\]$varterm\[\e[34m\][~]:#\[\e[1;32m\] ' " > ash.txt
 
 cat "t-ban.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
 

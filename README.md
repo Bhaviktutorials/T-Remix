@@ -24,22 +24,22 @@ T-Remix or Termux will Help to Customise Your Termux in such a way that you will
 one more feature that we have added is that you can change dollar sign and put anything you want in that place.
 Hope you guys like this Project,then dont forget to give it a like and stay connected for such amazing projects.
 
-* `Change Log` 
+* `Change Log`
 ```
   • New Banner Fonts Added
   • New Theme Feature Added
-  • Multiple Curser Choise 
+  • Multiple Curser Choise
   • Lock Screen Bugs Fixed
   • Access Granted Sound
   • New Fonts In Termux Added
   • Password Protection
  ```
  ### Installation T-Remix
-  
+
 * `Commands` for termux
 ```
 $ termux-setup-storage
-  
+
 $ pkg update && pkg upgrade && pkg install git -y
 
 $ git clone https://github.com/Bhaviktutorials/T-Remix
@@ -78,7 +78,7 @@ $ bash t-remix.sh
 
 ***
 
-### To Remove T-Remix :- 
+### To Remove T-Remix :-
 
 * type below command from anywhere & choose the option you want to remove
 ```

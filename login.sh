@@ -6,9 +6,9 @@
 #           T-Remix 2.0                 #
 #########################################
 
-# abort the login if python is not installed 
+# abort the login if python is not installed
 # re run the script bash t-remiix.sh
-# elif prcoceed the login 
+# elif prcoceed the login
 
 #copying login file to bin
 cd $HOME/T-Remix
@@ -26,13 +26,13 @@ if [ -d "$DIR" ]; then
   rm /data/data/com.termux/files/usr/etc/motd
 else
   ###  Control will jump here if $DIR does NOT exists ###
-  echo 
+  echo
 fi
 
 #Dir checker
 DIR1="/data/data/com.termux/files/usr/share/login/"
 if [ -d "$DIR1" ]; then
-  echo 
+  echo
 else
   # Take action if $DIR exists. #
   mkdir /data/data/com.termux/files/usr/share/login/
@@ -54,7 +54,7 @@ fi
 #Hidding up a user input
 tput civis
 echo -e "\e[1;33m☆\e[1;32m:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::\e[1;33m☆\e[m "
-echo 
+echo
 echo -e "\e[34m[*]\e[m \e[33m Please wait \e[m"
 echo
 sleep 3
@@ -68,7 +68,7 @@ echo -e "\e[34m[*]\e[m \e[33m Create a password \e[m"
 echo
 sleep 2
 echo -e "\e[34m[*]\e[m \e[33m Save user input \e[m"
-echo 
+echo
 sleep 2
 echo
 tput cnorm
@@ -88,7 +88,7 @@ then
 	python -c "import hashlib; print(hashlib.sha1(b'$passone').hexdigest())" > /data/data/com.termux/files/usr/share/login/.pass
 echo -e "\e[31m[*]\e[32m Login succesfully installed \e[m"
 break ;
-else 
+else
 echo -e "\e[33m[\e[31m!\e[33m]\e[31m Password doesn't match try again \e[m"
 sleep 2
 clear

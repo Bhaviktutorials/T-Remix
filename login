@@ -1,16 +1,16 @@
 #!/data/data/com.termux/files/usr/bin/sh
 # Hacker bannner
 # Password login
-# execute login shell 
+# execute login shell
 # exit from termux for incorrect password
 
-echo 
-echo 
-echo 
+echo
+echo
+echo
 echo "
       ━━━━━━━━━━━━━━━━━━━━━━━━━ [★] L O G I N [★] ━━━━━━━━━━━━━━━━━━━━━━━━━━━ " |lolcat
 echo
-echo " 
+echo "
                  ██╗  ██╗ █████╗  █████╗ ██╗  ██╗███████╗██████╗
                  ██║  ██║██╔══██╗██╔══██╗██║ ██╔╝██╔════╝██╔══██╗
                  ███████║███████║██║  ╚═╝█████═╝ █████╗  ██████╔╝
@@ -20,8 +20,8 @@ echo "
 echo
 echo "
      ━━━━━━━━━━━━━━━━━━━━━━━━━ [★] W E L C O M E [★] ━━━━━━━━━━━━━━━━━━━━━━━━ " |lolcat
-echo 
-echo 
+echo
+echo
 
 if [ $# = 0 ] && [ -f $PREFIX/etc/motd ] && [ ! -f ~/.hushlogin ]; then
 	cat $PREFIX/etc/motd
